@@ -20,13 +20,22 @@ sudo tshark -i lo -a duration:10 > tshark_splunk.csv
 
 
 #lo interface = loopback interface. 
+
 #T-Shark options
+
 #-i = Interface selection
+
 #-T = sets format of decoded packet
+
 #-e = field identifier
+
 #separator=/t = separating the fields by a tab
+
 #header=y = creating headers for each of the following specified fields.
+
 #sudo = privilege escalation
+
 #echo = creating time stamps for files.
+
 #NOTE: Ideally created file names should represent content.
 
