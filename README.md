@@ -21,6 +21,6 @@ The Process to acheive my outlined objective, involved opening an attack machine
 - 1 Filefor isolating data that would pertain to an attempted cyber attack.
 - 1 File for importing directly into Splunk for further analysis.
 
-# Ways to Improve the Process
+# Way to Improve the Process
 
 This could, in a non simulated environment, be further enhanced to be more efficient within a Linux OS Terminal through the use of cronjobs and allowing for the Script/Task to automate routinely without the cyber professionals orchestration for the majority of the process.
