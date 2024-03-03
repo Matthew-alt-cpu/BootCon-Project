@@ -1,5 +1,5 @@
 # BootCon-Project
-My Final Project for my Cyber Security course focusing on the Automation and Reusability of tasks.
+My Final Project for my Cyber Security course focusing on the ability to Automate and Reuse tasks with Tshark.
 
 # General Consensus
 
