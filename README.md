@@ -1,26 +1,115 @@
-# BootCon-Project
-My Final Project for my Cyber Security course focusing on the Automation and Reusability of tasks.
+# Slide 1:
 
-# General Consensus
+Automated Packet Capturing with T-Shark into        SPLUNK
 
-The Cyber Security world is a broad ever-expanding sphere with a constantly evolving technologcial population overseeing it. The result is cyber defenders performing daily monitoring for ensuring secure networking and system hardening whilst the contrast of network infiltration and system compromise by bad actors, continues to become more complex and pervasive.
+# Slide 2:
 
-Whilst there are numerous tools (SIEMs, Packet Sniffers, Firewalls, Ethical Hacking tools etc.), methodologies (Detect and protect, Secure Access, Advanced Threat Prevention etc.), and practices (Defence in Depth, CIA Triad, Password Policy implementation etc.) for blue teams cyber defence approach, the one resource that persists to be the main valuable component required for monitoring cyber crime is time. There is a general cocnensus that Cyber Security teams have an abundance of tasks required to optimally secure a company or clients network and system, many of these rote tasks have become habitual for cyber defenders as they are an, although often mundaine, staple for ensuring system security.
+What is T-Shark?
+T-Shark is a Network Packet Analyzer that unlike the popular tool “Wireshark”, does not have a GUI (Graphical User Interface) and instead works solely from the command line of a terminal.
 
-# The Necessity of Automation
+# Slide 3:
 
-This brings to light the value of system automation and shows the nessecity for a form of task management and execution within a cyber teams defensive arsenal, that does not require extensive time labour. Whether it be for the present or not to distant future, applications like SOAR's (Security Orchestration Automation and Response), IaM's (Identity and access Management), XDR's (eXtended Detection and Response) etc. all play a vital role in ensuring cyber teams can focus on tasks that take priority, require extensive monitoring and enlist the biggest risk to the company.
+T-Shark in Security
 
-# Goal of my Bootcon Project
+T-Shark is a handy tool for Cyber Security professionals providing useful:
 
-My goal is to display a form of automation for packet capturing that highlights specific protocols and client request data, that can accuratley display an attempted attack. To acheive this I will be using the Network Packet Analyser Wireshark's command line console Tshark, in conjunction with Bash Scripting.
+Network Security
+Attack monitoring
+Network Packet Analysis
+Incident Response
+Powerful Network Filtering
 
-The Process to acheive my outlined objective, involved opening an attack machine terminal that would perform a cross-site scripting attack on the DVWA Domain. At the same time the defending machine will run the Bash Script allowing for Tshark to capture the data and write specific information to specified files. From here it will create 3 seperate files all containing different data pertaining to the files requirements.
+# Slide 4:
+Okay and what are the advantages?
 
-- 1 File for general Network Logs.
-- 1 Filefor isolating data that would pertain to an attempted cyber attack.
-- 1 File for importing directly into Splunk for further analysis.
+No Payment required.
 
-# Way to Improve the Process
+Easy to install and access.
 
-This could, in a non simulated environment, be further enhanced to be more efficient within a Linux OS Terminal through the use of cronjobs and allowing for the Script/Task to automate routinely without the cyber professionals orchestration for the majority of the process.
+Fast use and packet capturing.
+
+Can work in conjunction with other tools.
+
+Man/Help page assistance.
+
+# Slide 5:
+
+Any Disadvantages?
+
+Learning curve.
+
+Lack of a graphical user interface can result  in large packets of data being difficult to navigate through.
+Threat Analysis
+
+# Slide 6:
+
+Sounds efficient, but why not Wireshark?
+
+Wireshark is  a great tool for capturing and analysing network packet data however where it truly shines is through navigating large amounts of traffic.
+
+I and possibly many others, prefer to work on the command line and enjoy learning the syntax and commands.
+
+# Slide 7:
+
+What is the Goal for using T-Shark?
+
+The main goal of using T-Shark is to perform packet capturing and analysis in an efficient and timely manner whilst displaying the power of automation. This goal will be  achieved through -
+
+Applying specific T-Shark Filters.
+
+Combining T-Shark with Bash Scripting.
+
+Importing the data into SPLUNK
+
+# Slide 8:
+
+Did you do any Research?
+
+The Research conducted involved the understanding of:
+
+Bash Scripting and execution.
+
+T-Shark Installation, functions and usage.
+
+T-Shark commands, filtering and exfiltration.
+
+SPLUNK Data types.
+
+# Slide 9:
+
+What are the Steps to Achieve the Goal?
+
+Step 1) Work solely within the command Terminal
+
+Step 2) Create a bash script that automates packet capturing with T-Shark.
+
+Step 3) Create an attack machine to perform a XSS (Cross-Site Scripting) attack on DVWA Domain.
+
+Step 4) Through T-Shark create .csv files with filtered information.
+
+Step 5) Add the data to SPLUNK 
+
+# Slide 10:
+
+Show me a Demonstration
+
+(This Slide Presentation briefly stopped as I conducted a live demonstration of the project)
+
+# Slide 11:
+
+Wow that really was quick, how about a Summary?
+
+In a few short minutes we were able to:
+
+Create an automated bash script that can be reused.
+
+Capture specific network packet data based on our desired fields.
+
+Imported the data into Splunk for further analysis.
+
+Extra Notes:
+We can also create a Cron-Job  from the automated task so the script can start and finish when we choose.
+
+# Slide 12:
+
+Any Questions? I don’t bite. 
